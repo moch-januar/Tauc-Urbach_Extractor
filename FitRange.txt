@@ -1,0 +1,6 @@
+TaucDir_index1: 559
+TaucDir_index2: 622
+TaucIndir_index1: 235
+TaucIndir_index2: 450
+Urbach_index1: 80
+Urbach_index2: 298

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tauc-Urbach Extractor: A Quick Guide</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+        h1, h2 {
+            color: #0056b3;
+        }
+        ol, ul {
+            margin-left: 20px;
+        }
+        ol li, ul li {
+            margin-bottom: 10px;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+        }
+        .box {
+            background: #e7e7e7;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Welcome to Tauc-Urbach Extractor v1.0</h1>
+
+    <div class="box">
+        <p>This software is specifically designed for extracting the bandgap using Tauc methods and Urbach energy using Urbach methods. It analyzes transmittance data obtained from UV-visible spectroscopy measurements.</p>
+
+        <p><strong>Developed by:</strong><br>
+        Moch. Januar, Ph.D., <br>
+        LIU Group, Department of Electronic Engineering<br>
+        Chang Gung University</p>
+    </div>
+
+    <h2>I. Step-by-Step User Guide:</h2>
+    <div class="box">
+        <ol>
+            <li><strong>Starting the Program:</strong> Launch the application by double-clicking "TaucUrbach_Extractor.exe."</li>
+            <li><strong>Data Preparation:</strong> Prepare an ASCII file (*.txt or *.csv) containing two columns: 
+                <ol type="a">
+                    <li>wavelength in nanometers [nm] and</li>
+                    <li>transmittance data in percentage [%].</li>
+                </ol>
+            </li>
+            <li><strong>Loading Data:</strong> Drag and drop the file or click the 'Open File' button to import the transmittance data into the program.</li>
+            <li><strong>Initial Data Check:</strong> View the raw data and ensure it is displayed correctly.</li>
+            <li><strong>Data Configuration:</strong> Enter the thickness of the film in nm. Adjust the 'skip-point' setting (used only for plotting) to enhance the visual presentation of the experimental data.</li>
+            <li><strong>Update Figures:</strong> Click 'Update Figure' button to refresh the figure after performing some settings.</li>
+            <li><strong>Data Fitting:</strong> Click the 'Fitting' button to start the data fitting process.</li>
+            <li><strong>Adjusting Fit Range:</strong> Fine-tune the fitting range for both Tauc and Urbach methods by selecting the most linear region of the experimental data. This adjustment is made using the dial buttons (for fast tuning) or the spin box (for fine tuning) located below each respective panel.</li>
+            <li><strong>Reviewing Results:</strong> Check the line-edit panels at the bottom for the values and standard deviations of the calculated bandgap and Urbach energy.</li>
+            <li><strong>Update Figures:</strong> Click 'Update Figure' button to refresh the figure after the data fitting process.</li>
+            <li><strong>Fine-Tuning:</strong> If necessary, further refine the fitting range to achieve a lower standard deviation in the results for the bandgap and Urbach energy by repeating the above fitting procedures.</li>
+        </ol>
+    </div>
+
+    <h2>II. Permission and Citation Requirements</h2>
+    <div class="box">
+        <ol>
+            <li><strong>Usage:</strong> This program is freely available for use.</li>
+            <li><strong>Citation Requirements:</strong> If you use this program for your research or in any publication, please cite the following:
+                <ul>
+                    <li>For the Program Itself: Januar et al., "Materials Advances" (2024), currently in press.</li>
+                    <li>For Theoretical Background: Additionally, cite relevant papers pertaining to the theory of Tauc and Urbach plots as applicable to your work.</li>
+                </ul>
+                Adherence to these citation guidelines is appreciated to acknowledge the effort and intellectual contribution of the developers and theorists.
+            </li>
+        </ol>
+    </div>
+
+    <p>Enjoy,<br>
+    MJ</p>
+
+</div>
+
+</body>
+</html>
