@@ -11,7 +11,7 @@ Follow these steps to install and run the program:
 
 After completing these steps, you should be ready to run the program.
 
-## Important Note for Users:
+# Important Note for Users:
 
 If you find this software beneficial for your research, please acknowledge it by citing the following paper:
 
