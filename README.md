@@ -15,6 +15,6 @@ After completing these steps, you should be ready to run the program.
 
 - If you find this software beneficial for your research, please acknowledge it by citing the following paper:
 
-  M. Januar, C.-Y. Lu, H.-C. Lin, T.-Y. Huang, C.-M. Yang, K.-K. Liu, and K.-C. Liu, Materials Advances (2024) in press.
+  "M. Januar, C.-Y. Lu, H.-C. Lin, T.-Y. Huang, C.-M. Yang, K.-K. Liu, and K.-C. Liu, Materials Advances (2024) in press."
 
 - For guidance on how to utilize this program, simply launch the software and click on the "How to Use? Click Here" button, located at the bottom-right corner of the software interface. This will provide you with detailed instructions and user support.
