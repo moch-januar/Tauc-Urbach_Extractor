@@ -1,3 +1,4 @@
+![The Program at a Glance](https://github.com/moch-januar/Tauc-Urbach_Extractor/blob/7c479fb395b11a26a80e857403578e654846953b/ProgramSnippet.PNG)
 
 # Installation and Running Instructions
 
